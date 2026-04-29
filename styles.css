@@ -1858,6 +1858,12 @@ p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Scale down hero section and testimonials on mobile */
+    .hero,
+    .simple-testimonial {
+        transform: scale(0.6);
+        transform-origin: top center;
+    }
 }
 
 @media (max-width: 968px) {
