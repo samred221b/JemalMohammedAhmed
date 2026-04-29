@@ -1858,6 +1858,24 @@ p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Scale down all sections except hero on mobile */
+    .destinations,
+    .about,
+    .opportunities,
+    .success-gallery,
+    .why-choose-us,
+    .simple-testimonial,
+    .services,
+    .contact,
+    .footer {
+        transform: scale(0.6);
+        transform-origin: top center;
+    }
+    
+    /* Keep hero at normal scale */
+    .hero {
+        transform: none;
+    }
 }
 
 @media (max-width: 968px) {
