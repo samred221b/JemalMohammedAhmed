@@ -1858,13 +1858,12 @@ p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    /* Scale down hero section and testimonials on mobile */
+    /* Make hero and testimonials fit screen properly */
     .hero,
     .simple-testimonial {
-        transform: scale(0.6);
-        transform-origin: top center;
-        width: 166.67%; /* Compensate for scale to prevent overflow */
-        margin-left: -33.33%; /* Center the scaled content */
+        transform: none;
+        width: 100%;
+        margin-left: 0;
         overflow-x: hidden;
     }
 }
