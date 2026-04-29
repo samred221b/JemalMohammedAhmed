@@ -825,7 +825,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: url('Assets/Hero.png');
+    background: url('Assets/Hero.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
