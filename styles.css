@@ -1863,6 +1863,9 @@ p {
     .simple-testimonial {
         transform: scale(0.6);
         transform-origin: top center;
+        width: 166.67%; /* Compensate for scale to prevent overflow */
+        margin-left: -33.33%; /* Center the scaled content */
+        overflow-x: hidden;
     }
 }
 
