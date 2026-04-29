@@ -1866,6 +1866,50 @@ p {
         margin-left: 0;
         overflow-x: hidden;
     }
+    
+    /* Make testimonials display like about-value-cards */
+    .testimonials-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    
+    .testimonial-card {
+        padding: 1.5rem 1rem;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        transition: all 0.3s ease;
+    }
+    
+    .testimonial-card:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.15);
+        transform: translateY(-4px);
+    }
+    
+    .testimonial-card p {
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.65);
+        line-height: 1.6;
+    }
+    
+    .testimonial-author cite {
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: #ffffff;
+        font-style: normal;
+        letter-spacing: 0.08em;
+    }
+    
+    .testimonial-role {
+        font-size: 0.75rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .testimonial-stars {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
 }
 
 @media (max-width: 968px) {
